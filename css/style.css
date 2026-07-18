@@ -4,9 +4,9 @@
 }
 
 body{
+ 
    width: 100%;
    height: 100vh;
-   border: 2px solid red;
 }
 .container{
    display: flex;
@@ -22,4 +22,19 @@ body{
    flex-direction: column;
    justify-content: center;
    align-items: center;
+}
+
+.vid-1{
+   width: 100%;
+   height: 100vh;
+   background-image: url('/asset/vid-1.gif');
+   position: fixed;
+   z-index: -1;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+#card{
+   display: none;
 }
